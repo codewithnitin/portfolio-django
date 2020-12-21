@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock title %}
+
+{% block body %}
+
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/img/code3.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/code2.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/code1.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+
+<div class="container my-4">
+<div class="text-center my-4">
+  <h2> What I do?</h2>
+</div>
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="/static/img/developer1.jpeg">
+
+        <h2>Developer</h2>
+        <p>I love to be connected with the paradigm programming language
+          called Python due to its diversity in all the fields like Web Development,
+          Machine Learning, Artificial Intelligence and Data Science.</p>
+        <p>As of now, I am equipped with the basic knowledge of Python fundamentals
+        and Django.</p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/static/img/designer1.jpeg">
+
+        <h2>Designer</h2>
+        <p>In terms of web designing, I learnt how to use Bootstrap as it is a boom
+          nowadays included Django web framework of Python I created three websites :</p>
+
+           <li>1. Portfolio Website</li>
+           <li>2. Live News Website</li>
+           <li>3. Ice Cream Shop Website</li>
+
+
+
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/static/img/Learner1.jpeg">
+        <h2>Learner</h2>
+        <p>Since my childhood I like to learn new things so taking this
+          momentum ahead, I am learning Python web framework Django these
+          days to excel my skill.</p>
+        <p>Whatever I learnt in Python, Django, Bootstrap & Tkinter
+        that all knowledge I grabbed via internet resources youtube
+        and documentation.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Who I am? <span class="text-muted">Nitin Sharma !</span></h2>
+        <p class="lead">Hello, I am the one who always focus on innovations and learning everything
+        related to generate new knowledge, and not only that, but share it with the others which is
+          beneficial for me in terms of my revision as well as passing knowledge to the others to
+          improve themselves.</p>
+        <p class="lead">Face problems with a smile and solve them as soon as possible, Excellent interpersonal
+        relationships, Believe that when problems arise the team should focus on finding on a solution
+        instead of blame someone.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="/static/img/mypic.jpeg">
+      </div>
+    </div>
+
+  <hr class="featurette-divider">
+
+
+  </div>
+
+{% endblock body %}

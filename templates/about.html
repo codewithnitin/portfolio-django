@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block title %} About {% endblock title %}
+
+{% block body %}
+
+<div class="container my-4">
+<div class="text-center my-4">
+  <h2> About Me</h2>
+</div>
+
+    <hr class="text-center my-4">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 <span class="text-muted">Nitin Sharma !</span></h2>
+        <p class="lead">I am a Python developer who loves this language a lot due
+        to its Syntax which is in very crystal clear manner, I have started my journey
+        in programming field during this lock-down period by learning Python where I learnt
+          all the fundamentals of it by watching online tutorials on Youtube, Documentation
+          which are great platform nowadays.</p>
+
+        <p class="lead">Once I completed my Python course then I decided to learn python web framework
+        Django which is an amazing thing as it provides inbuilt database sqlite3, its built in
+          authentication system to build such an incredible websites and my all three websites
+        which are Portfolio website, Live News website, Ice Cream Shop website I built via Django and
+        utility called Bootstrap for using (html, css & js), Bootstrap is very useful if you
+        wish to build websites in a quickly manner however if you know html, css and js so more power to
+        you.</p>
+
+
+      </div>
+      <div class="col-md-5">
+        <img src="/static/img/mypic1.jpeg">
+      </div>
+    </div>
+
+  <p>
+<a class="btn btn-primary my-1" data-bs-toggle="collapse" href="#target" role="button">
+    Learn more
+  </a>
+</p>
+<div class="collapse" id="target">
+  <div class="card card-body lead">
+        <h5>Skills:</h5>
+        <p class="lead">
+        <li>Python - Basic fundamentals of Python course which are linked to my github repository
+        python-course.</li>
+        <li>Django - MVT Architecture, URL Dispatching, Templates Inheritance, Database (Form
+          content submission to database, pull up content from database).</li>
+        <li>Bootstrap - How to use utilities of bootstrap to display templates content
+          (html,css,js) on browser for creating websites.</li>
+        <li>Tkinter - Basic for completion project Decision Review System.</li>
+        </p>
+
+        <h5>PROGRAMMING EXPERTISE</h5>
+        <p class="lead">
+        <li>Language, IDE : Python, Pycharm</li>
+        <li>Framework & Library : Django, Tkinter</li>
+        <li>Additional Utility : Bootstrap(html,css,js)</li>
+        </p>
+
+        <h5>Education:</h5>
+        <p class="lead">            B.TECH (IT) passed out from MDU,
+                                    World College of Technology & Management, Gurgaon.
+                <li>10th Passed from C.B.S.E Board.</li>
+                <li>12th Passed from C.B.S.E Board.</li>
+        </p>
+
+        <h5>PREVIOUS EXPERIENCE</h5>
+        <p class="lead">
+        <li>I was an employee of CMS Info Systems Pvt. Ltd. I had 1 year of experience there & my client site was RBS.</li>
+        <li>I had worked over there from date on 10 FEB 2014 to 15 NOV 2015.</li>
+        <li>Designation : FMS Engineer</li>
+        <li>I was working in Fidelity National Information Services Inc. ( FIS ) and I had completed 4.5 years there in FIS.
+    </li>
+        <li>I joined FIS on 1 FEB 2016 and worked there till 30 July 2020.</li>
+        <li>Designation : Support Engineer</li>
+
+        </p>
+
+<hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">My Hobbies !</span></h2>
+        <p class="lead">1. Cricket :- The Gentlemen Game.</p>
+        <p class="lead">2. Listening to the music.</p>
+        <p class="lead">3. Reading.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="/static/img/cricket.jpeg">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+
+
+
+  </div>
+</div>
+
+</div>
+
+
+{% endblock body %}
